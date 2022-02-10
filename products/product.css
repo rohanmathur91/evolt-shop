@@ -1,0 +1,19 @@
+.border-r {
+	border-right: 1px solid var(--light-gray);
+}
+
+.card-badge-bg {
+	background-color: var(--light-gray);
+}
+
+.products {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(28rem, 30rem));
+	justify-content: center;
+}
+
+@media screen and (max-width: 769px) {
+	.products {
+		grid-template-columns: 1fr 1fr;
+	}
+}
