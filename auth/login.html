@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- meta -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Rohan Mathur" />
+    <meta name="description" content="Evolt a ecommerce for your headphones." />
+
+    <!-- link -->
+    <link rel="stylesheet" href="https://polaroid7.netlify.app/polaroid.css" />
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" href="auth.css" />
+    <title>Evolt | Login</title>
+</head>
+
+<body>
+    <nav class="navigation flex-row items-center content-space-between w-100 sticky top-0 left-0 z-3">
+        <div class="flex-row items-center">
+            <div class="menu hide mr-1 p-1">
+                <div class="hamburger hamburger-line1"></div>
+                <div class="hamburger hamburger-line2"></div>
+                <div class="hamburger hamburger-line3"></div>
+            </div>
+
+            <a href="../index.html">
+                <h3 class="brand-logo font-black text-xl">EVOLT</h3>
+            </a>
+        </div>
+
+        <ul class="navbar-options flex-row flex-center">
+            <li>
+                <a class="flex-column items-center" href="./login.html">
+                    <i class="fa fa-user icon-stroke badge-icon"></i>
+                    <span class="navbar-icon-title">Login</span>
+                </a>
+            </li>
+            <li class="ml-4">
+                <a class="flex-column items-center" href="./wishlist.html">
+                    <span class="relative">
+                        <i class="fa fa-heart icon-stroke badge-icon"> </i>
+                        <span class="badge red-badge">0</span>
+                    </span>
+
+                    <span class="navbar-icon-title">Wishlist</span>
+                </a>
+            </li>
+            <li class="ml-4">
+                <a class="flex-column items-center" href="./cart.html">
+                    <span class="relative">
+                        <i class="fa fa-shopping-bag icon-stroke badge-icon relative">
+                        </i>
+                        <span class="badge red-badge">0</span>
+                    </span>
+                    <span class="navbar-icon-title">Bag</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="w-100 flex-row content-center mt-4">
+        <form class="login-form py-2 px-4 w-100 card-shadow rounded-sm m-2" action="./login.html">
+            <h3 class="text-center mt-2 mb-3">Login</h3>
+            <div class="flex-column mb-3">
+                <label for="email">Email address</label>
+                <input class="mt-1 py-1 px-2 text-base border rounded-sm" id="email" type="email"
+                    placeholder="Enter your email" />
+            </div>
+
+            <div class="flex-column mb-3">
+                <label for="password">Password</label>
+                <input class="mt-1 py-1 px-2 text-base border rounded-sm" id="password" type="password"
+                    placeholder="Enter your password" />
+            </div>
+
+            <div class="login-remember-me flex-row content-space-between my-2">
+                <label for="remember-me">
+                    <input class="mr-1" type="checkbox" id="remember-me" /> Remember me
+                </label>
+
+                <a class="forgot-password font-bold" href="#">Forgot your Password?</a>
+            </div>
+
+            <button class="p-1 w-100 font-semibold btn transition-2 mr-1 mb-2 rounded-sm">
+                Login
+            </button>
+
+            <div class="text-center mb-2">
+                <a href="./signup.html">Create New Account <i class="fa fa-chevron-right"></i></a>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
