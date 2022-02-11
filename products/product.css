@@ -2,6 +2,10 @@
 	border-right: 1px solid var(--light-gray);
 }
 
+.card {
+	text-overflow: ellipsis;
+}
+
 .card-badge-bg {
 	background-color: var(--light-gray);
 }

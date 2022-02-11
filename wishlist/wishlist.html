@@ -12,8 +12,9 @@
     <!-- link -->
     <link rel="stylesheet" href="https://polaroid7.netlify.app/polaroid.css" />
     <link rel="stylesheet" href="../style.css" />
-    <link rel="stylesheet" href="../cart/cart.css" />
-    <link rel="stylesheet" href="wishlist.css" />
+    <link rel="stylesheet" href="../products/product.css" />
+    <link rel="stylesheet" href="./wishlist.css" />
+
     <title>Evolt | Wishlist</title>
 </head>
 
@@ -61,187 +62,117 @@
         </ul>
     </nav>
 
-    <div class="products-container flex-row">
-        <aside class="filters flex-column py-2 px-4 border-r">
-            <ul class="my-2">
-                <li class="filter-header mb-1">
-                    <h4>Sort</h4>
-                </li>
-
-                <li class="filter-item mb-1">
-                    <label><input class="mr-2" type="radio" name="price" id="filter-price" />Latest</label>
-                </li>
-                <li class="filter-item mb-1">
-                    <label><input class="mr-2" type="radio" name="price" id="filter-price" />Price (Low to High)</label>
-                </li>
-                <li class="filter-item mb-1">
-                    <label><input class="mr-2" type="radio" name="price" id="filter-price" />Price (High to Low)</label>
-                </li>
-                <li class="filter-item">
-                    <div class="divider"></div>
-                </li>
-                <li class="filter-header mb-1">
-                    <h4>Brand</h4>
-                </li>
-                <li class="filter-item mb-1">
-                    <label for="filter-canon"><input class="mr-2" type="checkbox" name="brand"
-                            id="filter-canon" />Bose</label>
-                </li>
-                <li class="filter-item mb-1">
-                    <label for="filter-fuji"><input class="mr-2" type="checkbox" name="brand"
-                            id="filter-fuji" />Boat</label>
-                </li>
-                <li class="filter-item mb-1">
-                    <label for="filter-nikon"><input class="mr-2" type="checkbox" name="brand"
-                            id="filter-nikon" />Marshall</label>
-                </li>
-                <li class="filter-item mb-1">
-                    <label for="filter-olympus"><input class="mr-2" type="checkbox" name="price"
-                            id="filter-olympus" />Sony</label>
-                </li>
-                <li class="filter-item mb-1">
-                    <label for="filter-sony"><input class="mr-2" type="checkbox" name="price"
-                            id="filter-sony" />JBL</label>
-                </li>
-
-                <li class="filter-item">
-                    <div class="divider"></div>
-                </li>
-
-                <li class="filter-header mb-1">
-                    <h4>Type</h4>
-                </li>
-                <li class="filter-item mb-1">
-                    <label for="filter-resolution-1"><input class="mr-2" type="checkbox" name="brand"
-                            id="filter-resolution-1" />Wired</label>
-                </li>
-                <li class="filter-item mb-1">
-                    <label for="filter-resolution-2"><input class="mr-2" type="checkbox" name="brand"
-                            id="filter-resolution-2" />Wireless</label>
-                </li>
-                <li class="filter-item mb-1">
-                    <label for="filter-resolution-3"><input class="mr-2" type="checkbox" name="brand"
-                            id="filter-resolution-3" />Noise Cancelling</label>
-                </li>
-                <li class="filter-item mb-1">
-                    <label for="filter-resolution-4"><input class="mr-2" type="checkbox" name="price"
-                            id="filter-resolution-4" />Tangle Free Cord</label>
-                </li>
-                <li class="filter-item">
-                    <div class="divider"></div>
-                </li>
-
-                <li class="filter-header mb-1">
-                    <h4>Rating</h4>
-                </li>
-                <li class="filter-item mb-1">
-                    <label for="filter-rating-5"><input class="mr-2" type="checkbox" name="brand"
-                            id="filter-rating-5" />5 star</label>
-                </li>
-                <li class="filter-item mb-1">
-                    <label for="filter-rating-4"><input class="mr-2" type="checkbox" name="brand"
-                            id="filter-rating-4" />4 star</label>
-                </li>
-                <li class="filter-item mb-1">
-                    <label for="filter-rating-3"><input class="mr-2" type="checkbox" name="brand"
-                            id="filter-rating-3" />3 star</label>
-                </li>
-                <li class="filter-item mb-1">
-                    <label for="filter-rating-2"><input class="mr-2" type="checkbox" name="brand"
-                            id="filter-rating-2" />2 star</label>
-                </li>
-            </ul>
-        </aside>
-        <div class="w-100 mx-3">
-            <h3 class="text-xl mt-7 mb-3 text-center">My Wishlist</h3>
-            <div class="wishlist-container products m-3">
-                <div class="card card-shadow flex-column relative transition-2 m-2">
-                    <button
-                        class="card-badge-bg absolute text-base top-1 right-1 rounded-full flex-row flex-center pointer">
-                        <i class="fa fa-heart wishlist-active"></i>
-                    </button>
-                    <div>
-                        <img loading="lazy" src="./assests/jacket.jpg" alt="avatar" />
-                    </div>
-                    <div class="text-center">
-                        <p class="mt-2 mb-1">Men premium jacket</p>
-                        <h3 class="mb-1">₹2000</h3>
-                        <button class="p-1 w-100 font-semibold items-end btn transition-2">
-                            Move to Cart
-                        </button>
-                    </div>
-                </div>
-
-                <div class="card card-shadow flex-column relative transition-2 m-2">
-                    <span
-                        class="card-badge-bg absolute text-base top-1 right-1 rounded-full flex-row flex-center pointer">
-                        <i class="fa fa-heart wishlist-active"></i>
-                    </span>
-                    <div>
-                        <img loading="lazy" src="./assests/jacket.jpg" alt="avatar" />
-                    </div>
-                    <div class="text-center">
-                        <p class="mt-2 mb-1">Men premium jacket</p>
-                        <h3 class="mb-1">₹2000</h3>
-                        <button class="p-1 w-100 font-semibold items-end btn transition-2">
-                            Move to Cart
-                        </button>
-                    </div>
-                </div>
-
-                <div class="card card-shadow flex-column relative transition-2 m-2">
-                    <span
-                        class="card-badge-bg absolute text-base top-1 right-1 rounded-full flex-row flex-center pointer">
-                        <i class="fa fa-heart wishlist-active"></i>
-                    </span>
-                    <div>
-                        <img loading="lazy" src="./assests/jacket.jpg" alt="avatar" />
-                    </div>
-                    <div class="text-center">
-                        <p class="mt-2 mb-1">Men premium jacket</p>
-                        <h3 class="mb-1">₹2000</h3>
-                        <button class="p-1 w-100 font-semibold items-end btn transition-2">
-                            Move to Cart
-                        </button>
-                    </div>
-                </div>
-
-
-                <div class="card card-shadow flex-column relative transition-2 m-2">
-                    <span
-                        class="card-badge-bg absolute text-base top-1 right-1 rounded-full flex-row flex-center pointer">
-                        <i class="fa fa-heart wishlist-active"></i>
-                    </span>
-                    <div>
-                        <img loading="lazy" src="./assests/jacket.jpg" alt="avatar" />
-                    </div>
-                    <div class="text-center">
-                        <p class="mt-2 mb-1">Men premium jacket</p>
-                        <h3 class="mb-1">₹2000</h3>
-                        <button class="p-1 w-100 font-semibold items-end btn transition-2">
-                            Move to Cart
-                        </button>
-                    </div>
-                </div>
-
-                <div class="card card-shadow flex-column relative transition-2 m-2">
-                    <span
-                        class="card-badge-bg absolute text-base top-1 right-1 rounded-full flex-row flex-center pointer">
-                        <i class="fa fa-heart wishlist-active"></i>
-                    </span>
-                    <div>
-                        <img loading="lazy" src="./assests/jacket.jpg" alt="avatar" />
-                    </div>
-                    <div class="text-center">
-                        <p class="mt-2 mb-1">Men premium jacket</p>
-                        <h3 class="mb-1">₹2000</h3>
-                        <button class="p-1 w-100 font-semibold items-end btn transition-2">
-                            Move to Cart
-                        </button>
-                    </div>
-                </div>
+    <h3 class="text-xl mt-7 mb-3 text-center">My Wishlist</h3>
+    <div class="products w-100 mt-1 mb-6">
+        <div class="card card-shadow flex-column relative transition-2 m-1">
+            <span class="card-badge text-base font-semibold absolute top-1 left-1 rounded-sm">New</span>
+            <span class="card-badge-bg absolute text-base top-1 right-1 rounded-full flex-row flex-center pointer">
+                <i class="fa fa-heart wishlist-active"></i>
+            </span>
+            <div>
+                <img src="../assests/bose.jpg" alt="avatar" />
             </div>
+            <div class="px-1">
+                <p class="mt-2 mb-1">
+                    Bose Noise Cancellation Bluetooth Wireless On Ear Headphones
+                </p>
+                <h3 class="mb-1">₹2000</h3>
+            </div>
+            <button class="p-1 w-100 font-semibold btn transition-2 mr-1">
+                Add to cart
+            </button>
         </div>
+
+        <div class="card card-shadow flex-column relative transition-2 m-1">
+            <span class="card-badge-bg absolute text-base top-1 right-1 rounded-full flex-row flex-center pointer">
+                <i class="fa fa-heart wishlist-active"></i>
+            </span>
+            <div>
+                <img src="../assests/bose.jpg" alt="avatar" />
+            </div>
+            <div class="px-1">
+                <p class="mt-2 mb-1">
+                    Bose Noise Cancellation Bluetooth Wireless On Ear Headphones
+                </p>
+                <h3 class="mb-1">₹2000</h3>
+            </div>
+            <button class="p-1 w-100 font-semibold btn transition-2 mr-1">
+                Add to cart
+            </button>
+        </div>
+
+        <div class="card card-shadow flex-column relative transition-2 m-1">
+            <span class="card-badge-bg absolute text-base top-1 right-1 rounded-full flex-row flex-center pointer">
+                <i class="fa fa-heart wishlist-active"></i>
+            </span>
+            <div>
+                <img src="../assests/bose.jpg" alt="avatar" />
+            </div>
+            <div class="px-1">
+                <p class="mt-2 mb-1">
+                    Bose Noise Cancellation Bluetooth Wireless On Ear Headphones
+                </p>
+                <h3 class="mb-1">₹2000</h3>
+            </div>
+            <button class="p-1 w-100 font-semibold btn transition-2 mr-1">
+                Add to cart
+            </button>
+        </div>
+
+        <div class="card card-shadow flex-column relative transition-2 m-1">
+            <span class="card-badge-bg absolute text-base top-1 right-1 rounded-full flex-row flex-center pointer">
+                <i class="fa fa-heart wishlist-active"></i>
+            </span>
+            <div>
+                <img src="../assests/bose.jpg" alt="avatar" />
+            </div>
+            <div class="px-1">
+                <p class="mt-2 mb-1">
+                    Bose Noise Cancellation Bluetooth Wireless On Ear Headphones
+                </p>
+                <h3 class="mb-1">₹2000</h3>
+            </div>
+            <button class="p-1 w-100 font-semibold btn transition-2 mr-1">
+                Add to cart
+            </button>
+        </div>
+
+        <div class="card card-shadow flex-column relative transition-2 m-1">
+            <span class="card-badge-bg absolute text-base top-1 right-1 rounded-full flex-row flex-center pointer">
+                <i class="fa fa-heart wishlist-active"></i>
+            </span>
+            <div>
+                <img src="../assests/bose.jpg" alt="avatar" />
+            </div>
+            <div class="px-1">
+                <p class="mt-2 mb-1">
+                    Bose Noise Cancellation Bluetooth Wireless On Ear Headphones
+                </p>
+                <h3 class="mb-1">₹2000</h3>
+            </div>
+            <button class="p-1 w-100 font-semibold btn transition-2 mr-1">
+                Add to cart
+            </button>
+        </div>
+
+        <div class="card card-shadow flex-column relative transition-2 m-1">
+            <span class="card-badge-bg absolute text-base top-1 right-1 rounded-full flex-row flex-center pointer">
+                <i class="fa fa-heart wishlist-active"></i>
+            </span>
+            <div>
+                <img src="../assests/bose.jpg" alt="avatar" />
+            </div>
+            <div class="px-1">
+                <p class="mt-2 mb-1">
+                    Bose Noise Cancellation Bluetooth Wireless On Ear Headphones
+                </p>
+                <h3 class="mb-1">₹2000</h3>
+            </div>
+            <button class="p-1 w-100 font-semibold btn transition-2 mr-1">
+                Add to cart
+            </button>
+        </div>
+    </div>
 </body>
 
 </html>

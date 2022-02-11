@@ -1,9 +1,5 @@
 .wishlist-container {
-	margin: auto;
-}
-
-.card-badge-bg {
-	background-color: var(--light-gray);
+	max-width: 950px;
 }
 
 .card-badge-bg .wishlist-active {
