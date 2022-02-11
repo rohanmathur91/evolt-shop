@@ -1,0 +1,18 @@
+.quantity-btn {
+	width: 2.5rem;
+	height: 2.5rem;
+	font-size: 2rem;
+	color: var(--white);
+	background-color: var(--primary-hover-color);
+}
+
+.quantity-input {
+	width: 4rem;
+}
+
+.cart-details {
+	flex: 1 0 auto;
+	max-width: 40rem;
+	align-self: flex-end;
+	background-color: var(--white);
+}
