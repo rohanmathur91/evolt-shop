@@ -10,18 +10,20 @@
 	--red: #ef4444;
 	--black: #171717;
 	--white: #ffffff;
-	--light-gray: #e5e7eb;
+	--gray: #94969f;
+	--light-gray: #e5e5e5;
 	--drak-gray: #666666;
 	--primary-color: #302f34;
 	--primary-hover-color: #4a494e;
 	--secondary-color: #9a9a9a;
 	--secondary-hover-color: #afafaf;
-	--background-color: #fafafa;
+	--background-color: #fff;
 	--navigation-shadow: rgba(0, 0, 0, 0.2);
+	--box-shadow: ;
 }
 
 body {
-	color: var(--black);
+	color: var(--primary-color);
 	font-family: "Inter", sans-serif;
 	background-color: var(--background-color);
 }
@@ -58,6 +60,7 @@ button {
 	padding: 1rem 2rem;
 	color: var(--white);
 	background-color: var(--primary-color);
+	border-radius: 5px;
 }
 
 .btn:hover {
@@ -81,6 +84,10 @@ button {
 
 .text-underline {
 	text-decoration: underline;
+}
+
+.border {
+	border: 1px solid var(--light-gray);
 }
 
 /* navbar */
@@ -135,7 +142,7 @@ button {
 
 .navbar-icon-title {
 	margin-top: 2px;
-	font-size: 1.4rem;
+	font-size: 1.2rem;
 	font-weight: bold;
 }
 
@@ -160,7 +167,7 @@ button {
 }
 
 .red-badge {
-	font-size: 1.5rem;
+	font-size: 1.2rem;
 	color: var(--white);
 	background-color: var(--red);
 }
