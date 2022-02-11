@@ -31,13 +31,14 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-	background: var(--light-gray);
+	background: var(--secondary-color);
 }
 
 i,
 input,
 button {
 	font-size: 1.6rem;
+	font-family: inherit;
 }
 
 img {
@@ -82,6 +83,10 @@ img {
 
 .overflow-hidden {
 	overflow: hidden;
+}
+
+.text-underline {
+	text-decoration: underline;
 }
 
 /* navbar */
@@ -221,7 +226,7 @@ img {
 	color: var(--gray);
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 769px) {
 	.navbar-icon-title {
 		display: none;
 	}
