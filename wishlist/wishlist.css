@@ -1,7 +1,3 @@
-.wishlist-container {
-	max-width: 950px;
-}
-
 .card-badge-bg .wishlist-active {
 	color: var(--red);
 }
