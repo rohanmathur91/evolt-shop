@@ -13,6 +13,17 @@
 	justify-content: center;
 }
 
+.card-description {
+	color: var(--dark-gray);
+}
+
+.price-strike {
+	margin-left: 5px;
+	font-size: 1.2rem;
+	color: var(--dark-gray);
+	text-decoration: line-through;
+}
+
 /* filters */
 .divider {
 	width: 100%;

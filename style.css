@@ -12,14 +12,13 @@
 	--white: #ffffff;
 	--gray: #94969f;
 	--light-gray: #e5e5e5;
-	--drak-gray: #666666;
+	--dark-gray: #666666;
 	--primary-color: #302f34;
 	--primary-hover-color: #4a494e;
 	--secondary-color: #9a9a9a;
 	--secondary-hover-color: #afafaf;
 	--background-color: #fff;
 	--navigation-shadow: rgba(0, 0, 0, 0.2);
-	--box-shadow: ;
 }
 
 body {
@@ -57,10 +56,10 @@ button {
 
 .btn {
 	font-weight: bold;
-	padding: 1rem 2rem;
-	color: var(--white);
-	background-color: var(--primary-color);
 	border-radius: 5px;
+	color: var(--white);
+	padding: 0.8rem 1.6rem;
+	background-color: var(--primary-color);
 }
 
 .btn:hover {
@@ -68,7 +67,7 @@ button {
 }
 
 .btn-outlined {
-	padding: 1rem 2rem;
+	padding: 0.8rem 1.6rem;
 	color: var(--gray);
 	border: 1px solid var(--gray);
 }
