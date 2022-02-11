@@ -1,0 +1,11 @@
+.wishlist-container {
+	margin: auto;
+}
+
+.card-badge-bg {
+	background-color: var(--light-gray);
+}
+
+.card-badge-bg .wishlist-active {
+	color: var(--red);
+}
