@@ -2,7 +2,8 @@
 	border-right: 1px solid var(--light-gray);
 }
 
-.card-badge-bg {
+.wishlist-badge {
+	color: var(--gray);
 	background-color: var(--light-gray);
 }
 
