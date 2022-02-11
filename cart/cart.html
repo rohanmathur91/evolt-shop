@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- meta -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Rohan Mathur" />
+    <meta name="description" content="Evolt a ecommerce for your headphones." />
+
+    <!-- link -->
+    <link rel="stylesheet" href="https://polaroid7.netlify.app/polaroid.css" />
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" href="cart.css" />
+    <title>Evolt | Cart</title>
+</head>
+
+<body>
+    <nav class="navigation flex-row items-center content-space-between w-100 sticky top-0 left-0 z-3">
+        <div class="flex-row items-center">
+            <div class="menu hide mr-1 p-1">
+                <div class="hamburger hamburger-line1"></div>
+                <div class="hamburger hamburger-line2"></div>
+                <div class="hamburger hamburger-line3"></div>
+            </div>
+
+            <a href="../index.html">
+                <h3 class="brand-logo font-black text-xl">EVOLT</h3>
+            </a>
+        </div>
+
+        <ul class="navbar-options flex-row flex-center">
+            <li>
+                <a class="flex-column items-center" href="../auth/login.html">
+                    <i class="fa fa-user icon-stroke badge-icon"></i>
+                    <span class="navbar-icon-title">Login</span>
+                </a>
+            </li>
+            <li class="ml-4">
+                <a class="flex-column items-center" href="../wishlist/wishlist.html">
+                    <span class="relative">
+                        <i class="fa fa-heart icon-stroke badge-icon"> </i>
+                        <span class="badge red-badge">0</span>
+                    </span>
+                    <span class="navbar-icon-title">Wishlist</span>
+                </a>
+            </li>
+            <li class="ml-4">
+                <a class="flex-column items-center" href="./cart.html">
+                    <span class="relative">
+                        <i class="fa fa-shopping-bag icon-stroke badge-icon relative">
+                        </i>
+                        <span class="badge red-badge">0</span>
+                    </span>
+                    <span class="navbar-icon-title">Bag</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <h3 class="text-xl mt-7 text-center">Shopping Cart(2)</h3>
+    <div class="cart-container flex-row wrap-reverse content-center m-2">
+        <div class="cart-products">
+            <div class="card card-shadow flex-row items-center horizontal-card relative transition-2 m-2">
+                <div class="w-30">
+                    <img src="../assests/marshall.png" alt="avatar" class="h-80" />
+                </div>
+                <div class="flex-column content-space-between w-30 p-3">
+                    <div>
+                        <p class="text-lg mb-1">Men premium jacket</p>
+                        <div class="mb-1">
+                            <span class="mr-2 text-lg font-bold">₹2000</span>
+                            <span class="gray text-lg"><s>₹3000</s></span>
+                        </div>
+                        <p class="gray font-bold text-lg mb-1">50% off</p>
+                        <div class="quantity flex-row my-2">
+                            <p class="mr-1">Quantity:</p>
+                            <button class="quantity-btn flex-row flex-center rounded-full mr-2">
+                                -
+                            </button>
+                            <input class="quantity-input text-center border rounded-sm mr-2" type="text" name="quantity"
+                                id="quantity" value="1" />
+                            <button class="quantity-btn flex-row flex-center rounded-full">
+                                +
+                            </button>
+                        </div>
+                    </div>
+                    <div>
+                        <button class="btn w-100 font-semibold items-end transition-2 mb-1">
+                            Add to wishlist
+                        </button>
+                        <button class="btn-outlined w-100 font-semibold items-end transition-2">
+                            Remove from cart
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card card-shadow flex-row items-center horizontal-card relative transition-2 m-2">
+                <div class="w-30">
+                    <img src="../assests/marshall.png" alt="avatar" class="h-80" />
+                </div>
+                <div class="flex-column content-space-between w-30 p-3">
+                    <div>
+                        <p class="text-lg mb-1">Men premium jacket</p>
+                        <div class="mb-1">
+                            <span class="mr-2 text-lg font-bold">₹2000</span>
+                            <span class="gray text-lg"><s>₹3000</s></span>
+                        </div>
+                        <p class="gray font-bold text-lg mb-1">50% off</p>
+                        <div class="quantity flex-row my-2">
+                            <p class="mr-1">Quantity:</p>
+                            <button class="quantity-btn flex-row flex-center rounded-full mr-2">
+                                -
+                            </button>
+                            <input class="quantity-input text-center border rounded-sm mr-2" type="text" name="quantity"
+                                id="quantity" value="1" />
+                            <button class="quantity-btn flex-row flex-center rounded-full">
+                                +
+                            </button>
+                        </div>
+                    </div>
+                    <div>
+                        <button class="btn w-100 font-semibold items-end transition-2 mb-1">
+                            Add to wishlist
+                        </button>
+                        <button class="btn-outlined w-100 font-semibold items-end transition-2">
+                            Remove from cart
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card card-shadow flex-row items-center horizontal-card relative transition-2 m-2">
+                <div class="w-30">
+                    <img src="../assests/marshall.png" alt="avatar" class="h-80" />
+                </div>
+                <div class="flex-column content-space-between w-30 p-3">
+                    <div>
+                        <p class="text-lg mb-1">Men premium jacket</p>
+                        <div class="mb-1">
+                            <span class="mr-2 text-lg font-bold">₹2000</span>
+                            <span class="gray text-lg"><s>₹3000</s></span>
+                        </div>
+                        <p class="gray font-bold text-lg mb-1">50% off</p>
+                        <div class="quantity flex-row my-2">
+                            <p class="mr-1">Quantity:</p>
+                            <button class="quantity-btn flex-row flex-center rounded-full mr-2">
+                                -
+                            </button>
+                            <input class="quantity-input text-center border rounded-sm mr-2" type="text" name="quantity"
+                                id="quantity" value="1" />
+                            <button class="quantity-btn flex-row flex-center rounded-full">
+                                +
+                            </button>
+                        </div>
+                    </div>
+                    <div>
+                        <button class="btn w-100 font-semibold items-end transition-2 mb-1">
+                            Add to wishlist
+                        </button>
+                        <button class="btn-outlined w-100 font-semibold items-end transition-2">
+                            Remove from cart
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="cart-details card-shadow flex-start p-3 my-2 mx-3">
+            <p class="border-b-1 pb-1 font-bold">Price Details</p>
+            <div class="flex-row content-space-between py-1">
+                <span>Price(2 items)</span>
+                <span>₹4000</span>
+            </div>
+            <div class="flex-row content-space-between py-1">
+                <span>Discount</span>
+                <span>- ₹1000</span>
+            </div>
+            <div class="border-b-1 flex-row content-space-between py-1 mb-1">
+                <span>Delivery Charges</span>
+                <span>₹500</span>
+            </div>
+            <div class="border-b-1 font-bold flex-row content-space-between py-1 mb-1">
+                <span>Total Amount</span>
+                <span>₹3500</span>
+            </div>
+            <p class="py-1">You will save ₹1000 on this order</p>
+            <button class="btn w-100 font-semibold items-end transition-2 p-1 mt-1">
+                Place Order
+            </button>
+        </div>
+    </div>
+</body>
+
+</html>
