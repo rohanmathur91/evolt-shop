@@ -30,6 +30,10 @@
 	overflow: auto;
 }
 
+.mobile-filters {
+	display: none;
+}
+
 .filter-btn {
 	color: var(--primary-color);
 	background-color: var(--light-gray);
@@ -50,5 +54,9 @@
 
 	.filters {
 		display: none;
+	}
+
+	.mobile-filters {
+		display: flex;
 	}
 }
