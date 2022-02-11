@@ -41,12 +41,6 @@ button {
 	font-family: inherit;
 }
 
-img {
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
-}
-
 /* utility */
 .text-primary {
 	color: var(--primary-color);
@@ -226,7 +220,15 @@ img {
 	color: var(--gray);
 }
 
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 767px) {
+	html {
+		font-size: 48%;
+	}
+
+	.horizontal-card {
+		flex-direction: column;
+	}
+
 	.navbar-icon-title {
 		display: none;
 	}

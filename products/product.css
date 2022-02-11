@@ -2,10 +2,6 @@
 	border-right: 1px solid var(--light-gray);
 }
 
-.card {
-	text-overflow: ellipsis;
-}
-
 .card-badge-bg {
 	background-color: var(--light-gray);
 }
@@ -62,5 +58,14 @@
 
 	.mobile-filters {
 		display: flex;
+	}
+
+	.card-description {
+		overflow: hidden;
+		display: -webkit-box;
+		-webkit-line-clamp: 2;
+		-webkit-box-orient: vertical;
+		text-overflow: ellipsis;
+		align-self: flex-start;
 	}
 }
