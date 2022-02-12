@@ -57,19 +57,21 @@ button {
 .btn {
 	font-weight: bold;
 	border-radius: 5px;
-	color: var(--white);
 	padding: 0.8rem 1.6rem;
+}
+
+.btn-solid {
+	color: var(--white);
 	background-color: var(--primary-color);
 }
 
-.btn:hover {
+.btn-solid:hover {
 	background-color: var(--primary-hover-color);
 }
 
 .btn-outlined {
-	padding: 0.8rem 1.6rem;
 	color: var(--gray);
-	border: 1px solid var(--gray);
+	border: 1px solid var(--light-gray);
 }
 
 .btn-outlined:hover {
@@ -87,6 +89,10 @@ button {
 
 .border {
 	border: 1px solid var(--light-gray);
+}
+
+.border-bottom {
+	border-bottom: 1px solid var(--light-gray);
 }
 
 /* navbar */
@@ -228,11 +234,7 @@ button {
 
 @media screen and (max-width: 767px) {
 	html {
-		font-size: 48%;
-	}
-
-	.horizontal-card {
-		flex-direction: column;
+		font-size: 56%;
 	}
 
 	.navbar-icon-title {
