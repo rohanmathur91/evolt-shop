@@ -3,8 +3,11 @@
 }
 
 .wishlist-badge {
-	color: var(--gray);
 	background-color: var(--light-gray);
+}
+
+.wishlist-badge i:hover {
+	color: var(--red);
 }
 
 .products {
@@ -15,6 +18,7 @@
 
 .card {
 	max-width: 25rem;
+	transition: all 0.3s;
 }
 
 .card-description {
