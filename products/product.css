@@ -3,14 +3,22 @@
 }
 
 .wishlist-badge {
-	color: var(--gray);
 	background-color: var(--light-gray);
+}
+
+.wishlist-badge i:hover {
+	color: var(--red);
 }
 
 .products {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(28rem, 30rem));
 	justify-content: center;
+}
+
+.card {
+	max-width: 25rem;
+	transition: all 0.3s;
 }
 
 .card-description {
@@ -62,6 +70,11 @@
 @media screen and (max-width: 769px) {
 	.products {
 		grid-template-columns: 1fr 1fr;
+		gap: 10px;
+	}
+
+	.card {
+		margin: auto;
 	}
 
 	.filters {
