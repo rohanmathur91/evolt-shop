@@ -2,11 +2,8 @@
 	border-right: 1px solid var(--light-gray);
 }
 
-.card {
-	text-overflow: ellipsis;
-}
-
-.card-badge-bg {
+.wishlist-badge {
+	color: var(--gray);
 	background-color: var(--light-gray);
 }
 
@@ -14,6 +11,17 @@
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(28rem, 30rem));
 	justify-content: center;
+}
+
+.card-description {
+	color: var(--dark-gray);
+}
+
+.price-strike {
+	margin-left: 5px;
+	font-size: 1.2rem;
+	color: var(--dark-gray);
+	text-decoration: line-through;
 }
 
 /* filters */
@@ -62,5 +70,14 @@
 
 	.mobile-filters {
 		display: flex;
+	}
+
+	.card-description {
+		overflow: hidden;
+		display: -webkit-box;
+		-webkit-line-clamp: 2;
+		-webkit-box-orient: vertical;
+		text-overflow: ellipsis;
+		align-self: flex-start;
 	}
 }
