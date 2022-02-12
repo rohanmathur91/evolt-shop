@@ -11,12 +11,12 @@
 	background-color: var(--primary-hover-color);
 }
 
-.cart-item {
-	flex-grow: 1;
+.cart-products {
+	flex: 1 0 62%;
 }
 
 .cart-details {
-	width: 45%;
+	flex-grow: 1;
 	align-self: flex-start;
 }
 
