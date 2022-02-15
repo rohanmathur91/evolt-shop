@@ -238,7 +238,8 @@ button {
 		font-size: 56%;
 	}
 
-	.navbar-icon-title {
+	.navbar-icon-title,
+	.navbar-left-options {
 		display: none;
 	}
 
