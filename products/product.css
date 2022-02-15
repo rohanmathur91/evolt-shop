@@ -22,7 +22,13 @@
 }
 
 .card-description {
+	overflow: hidden;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
 	color: var(--dark-gray);
+	text-overflow: ellipsis;
+	align-self: flex-start;
 }
 
 .price-strike {
@@ -83,14 +89,5 @@
 
 	.mobile-filters {
 		display: flex;
-	}
-
-	.card-description {
-		overflow: hidden;
-		display: -webkit-box;
-		-webkit-line-clamp: 2;
-		-webkit-box-orient: vertical;
-		text-overflow: ellipsis;
-		align-self: flex-start;
 	}
 }

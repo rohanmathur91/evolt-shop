@@ -232,7 +232,7 @@ button {
 	color: var(--gray);
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 48em) {
 	html {
 		font-size: 56%;
 	}
