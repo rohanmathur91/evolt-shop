@@ -46,6 +46,7 @@ button {
 .text-primary {
 	color: var(--primary-color);
 }
+
 .gutter-bottom {
 	margin-bottom: 2rem;
 }
