@@ -1,4 +1,14 @@
+.address {
+	font-size: 1.4rem;
+}
+
+.edit-btn {
+	font-size: 1.4rem;
+	align-self: flex-start;
+}
+
 .cart-container {
+	margin: auto;
 	max-width: 102.4rem;
 }
 
@@ -10,11 +20,15 @@
 	background-color: var(--primary-hover-color);
 }
 
-.quantity-input {
-	width: 4rem;
+.cart-products {
+	flex: 1 0 62%;
 }
 
 .cart-details {
-	width: 40%;
-	background-color: var(--white);
+	flex-grow: 1;
+	align-self: flex-start;
+}
+
+.quantity-input {
+	width: 4rem;
 }
