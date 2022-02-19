@@ -156,6 +156,15 @@ button {
 	font-weight: bold;
 }
 
+.search {
+	width: 100%;
+	max-width: 40rem;
+}
+
+.search-icon {
+	color: var(--gray);
+}
+
 .card-badge {
 	background-color: var(--primary-color);
 }
