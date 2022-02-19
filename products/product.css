@@ -1,8 +1,10 @@
 .products {
 	display: grid;
+	align-items: start;
 	justify-items: center;
-	justify-content: center;
-	grid-template-columns: repeat(3, 28rem);
+	grid-template-columns: repeat(3, 1fr);
+	margin: 0 auto;
+	max-width: 80rem;
 }
 
 .card {
@@ -47,9 +49,9 @@
 	position: sticky;
 	top: 6.5rem;
 	left: 0;
+	height: calc(100vh - 7.8rem);
 	width: 28rem;
 	min-width: 28rem;
-	height: calc(100vh - 6.5rem);
 	overflow: auto;
 }
 
@@ -70,12 +72,13 @@
 	border-right: 1px solid var(--dark-gray);
 }
 
-@media screen and (max-width: 48em) {
+@media screen and (max-width: 64em) {
 	.products {
-		gap: 4px;
-		grid-template-columns: 1fr 1fr;
+		grid-template-columns: repeat(2, 1fr);
 	}
+}
 
+@media screen and (max-width: 48em) {
 	.filters {
 		display: none;
 	}

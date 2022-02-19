@@ -251,7 +251,7 @@ input:focus {
 	color: var(--gray);
 }
 
-@media screen and (max-width: 62em) {
+@media screen and (max-width: 64em) {
 	html {
 		font-size: 56%;
 	}
