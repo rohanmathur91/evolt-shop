@@ -21,7 +21,8 @@
 }
 
 .cart-products {
-	flex: 1 0 62%;
+	width: 100%;
+	max-width: 65rem;
 }
 
 .cart-details {

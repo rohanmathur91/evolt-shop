@@ -73,7 +73,7 @@
 	border-right: 1px solid var(--dark-gray);
 }
 
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 48em) {
 	.products {
 		grid-template-columns: 1fr 1fr;
 		gap: 10px;
