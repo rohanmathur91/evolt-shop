@@ -42,6 +42,11 @@ button {
 	font-family: inherit;
 }
 
+input:focus {
+	outline: none;
+	border: 1px solid var(--gray);
+}
+
 /* utility */
 .text-primary {
 	color: var(--primary-color);
@@ -233,7 +238,7 @@ button {
 	color: var(--gray);
 }
 
-@media screen and (max-width: 48em) {
+@media screen and (max-width: 62em) {
 	html {
 		font-size: 56%;
 	}
