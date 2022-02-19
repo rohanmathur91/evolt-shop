@@ -161,6 +161,19 @@ input:focus {
 	font-weight: bold;
 }
 
+.search {
+	width: 40rem;
+	background-color: var(--background-color);
+}
+
+.search-icon {
+	color: var(--gray);
+}
+
+.search-input:focus {
+	border: none;
+}
+
 .card-badge {
 	background-color: var(--primary-color);
 }
@@ -242,7 +255,7 @@ input:focus {
 	color: var(--gray);
 }
 
-@media screen and (max-width: 62em) {
+@media screen and (max-width: 64em) {
 	html {
 		font-size: 56%;
 	}
@@ -254,5 +267,14 @@ input:focus {
 
 	.arrival-container {
 		flex-direction: column;
+	}
+}
+
+@media screen and (max-width: 48em) {
+	.search {
+		position: absolute;
+		top: 6.6rem;
+		left: 0;
+		width: 100%;
 	}
 }
