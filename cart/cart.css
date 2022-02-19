@@ -3,8 +3,8 @@
 }
 
 .edit-btn {
-	font-size: 1.4rem;
-	align-self: flex-start;
+	width: 1.5rem;
+	height: 1.5rem;
 }
 
 .cart-container {
@@ -21,7 +21,8 @@
 }
 
 .cart-products {
-	flex: 1 0 62%;
+	width: 100%;
+	max-width: 65rem;
 }
 
 .cart-details {
