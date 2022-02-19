@@ -2,7 +2,7 @@
 	display: grid;
 	justify-items: center;
 	justify-content: center;
-	grid-template-columns: repeat(3, 1fr);
+	grid-template-columns: repeat(3, 28rem);
 }
 
 .card {
