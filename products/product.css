@@ -1,19 +1,8 @@
-.border-r {
-	border-right: 1px solid var(--light-gray);
-}
-
-.wishlist-badge {
-	background-color: var(--light-gray);
-}
-
-.wishlist-badge i:hover {
-	color: var(--red);
-}
-
 .products {
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(28rem, 30rem));
+	justify-items: center;
 	justify-content: center;
+	grid-template-columns: repeat(3, 28rem);
 }
 
 .card {
@@ -29,6 +18,14 @@
 	color: var(--dark-gray);
 	text-overflow: ellipsis;
 	align-self: flex-start;
+}
+
+.wishlist-badge {
+	background-color: var(--light-gray);
+}
+
+.wishlist-badge i:hover {
+	color: var(--red);
 }
 
 .price-strike {
@@ -75,12 +72,8 @@
 
 @media screen and (max-width: 48em) {
 	.products {
+		gap: 4px;
 		grid-template-columns: 1fr 1fr;
-		gap: 10px;
-	}
-
-	.card {
-		margin: auto;
 	}
 
 	.filters {

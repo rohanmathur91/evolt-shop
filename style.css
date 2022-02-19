@@ -97,6 +97,10 @@ input:focus {
 	border: 1px solid var(--light-gray);
 }
 
+.border-r {
+	border-right: 1px solid var(--light-gray);
+}
+
 .border-bottom {
 	border-bottom: 1px solid var(--light-gray);
 }
