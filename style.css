@@ -162,12 +162,16 @@ input:focus {
 }
 
 .search {
-	width: 100%;
-	max-width: 40rem;
+	width: 40rem;
+	background-color: var(--background-color);
 }
 
 .search-icon {
 	color: var(--gray);
+}
+
+.search-input:focus {
+	border: none;
 }
 
 .card-badge {
@@ -263,5 +267,14 @@ input:focus {
 
 	.arrival-container {
 		flex-direction: column;
+	}
+}
+
+@media screen and (max-width: 48em) {
+	.search {
+		position: absolute;
+		top: 6.6rem;
+		left: 0;
+		width: 100%;
 	}
 }
