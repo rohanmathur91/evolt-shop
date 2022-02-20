@@ -7,3 +7,8 @@
 .forgot-password {
 	color: var(--primary-color);
 }
+
+.logout {
+	width: 100%;
+	max-width: 50rem;
+}
