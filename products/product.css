@@ -23,10 +23,10 @@
 }
 
 .wishlist-badge {
-	background-color: var(--light-gray);
+	background-color: var(--light-red);
 }
 
-.wishlist-badge i:hover {
+.wishlist-badge i {
 	color: var(--red);
 }
 
