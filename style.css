@@ -161,6 +161,10 @@ input:focus {
 	font-weight: bold;
 }
 
+.navbar-cta:hover {
+	background-color: var(--light-gray);
+}
+
 .search {
 	width: 40rem;
 	background-color: var(--background-color);
