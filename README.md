@@ -1,14 +1,20 @@
-# Evolt-Shop
+<p align="center">
+    <img width="200" height="200" src="https://user-images.githubusercontent.com/61556757/154898155-381fef44-766e-4c71-800b-3bb57e2a5354.svg" alt="Evolt logo">
+</p>
+<h1 align="center">Evolt</h1>
 
-## Ecommerce for your headphones.
+<h1 align="center">One shop for all your headphones 🎧.</h1>
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/e57f8c88-36c0-4dfe-a19b-cb4de8294724/deploy-status)](https://app.netlify.com/sites/evolt/deploys)
+<p align="center">
+  <img src="https://api.netlify.com/api/v1/badges/e57f8c88-36c0-4dfe-a19b-cb4de8294724/deploy-status">
+</p>
 
 ## Features (Only screens):
 
 - Home Page
 - Product Listing Page
 - Filters by:
+  - Sort
   - Price
   - Brand
   - Ratings
@@ -18,32 +24,37 @@
   - Sign-up
   - Login
   - Logout
+- Search
+- Address
 
-## Tech Stack
+## Tech Stack:
 
 - HTML
 - CSS
 
-## Run Locally
+## Run locally:
 
 Clone the project
 
-```bash
+```
   git clone https://github.com/rohanmathur91/evolt-shop.git
 ```
 
 Go to the project directory
 
-```bash
+```
   cd evolt-shop
 ```
 
-```bash
+```
   open the index.html in chrome
 ```
 
-## Screenshots
+## Demo (gif):
+![chrome-capture (6)](https://user-images.githubusercontent.com/61556757/154899025-6b45b0c2-b075-4d8d-a836-0192e524579d.gif)
 
-![image](https://user-images.githubusercontent.com/61556757/154544308-3ce93727-849f-4bed-97c2-010a34bb2472.png)
-![image](https://user-images.githubusercontent.com/61556757/154544367-3f53848e-69d9-4055-b06e-7b3756b3ce58.png)
-![image](https://user-images.githubusercontent.com/61556757/154544420-41a20347-5886-46ad-bf9e-0f52f7dc2023.png)
+
+## Screenshots:
+![image](https://user-images.githubusercontent.com/61556757/154899087-8f70fb48-a48a-458e-aeab-c0f0fd260c29.png)
+![image](https://user-images.githubusercontent.com/61556757/154899133-7b9f1219-05ed-4d48-aab3-1f99f0af29a1.png)
+![image](https://user-images.githubusercontent.com/61556757/154899163-5b71d0ec-471e-48ad-a702-74f9ddaf3aaa.png)
