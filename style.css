@@ -38,12 +38,14 @@ body {
 
 i,
 input,
-button {
+button,
+textarea {
 	font-size: 1.6rem;
 	font-family: inherit;
 }
 
-input:focus {
+input:focus,
+textarea:focus {
 	outline: none;
 	border: 1px solid var(--gray);
 }
