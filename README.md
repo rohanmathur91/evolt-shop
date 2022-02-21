@@ -25,7 +25,8 @@
   - Login
   - Logout
 - Search
-- Address
+- Address Management
+- Single Product Page
 
 ## Tech Stack:
 
@@ -51,10 +52,11 @@ Go to the project directory
 ```
 
 ## Demo (gif):
+
 ![chrome-capture (6)](https://user-images.githubusercontent.com/61556757/154899025-6b45b0c2-b075-4d8d-a836-0192e524579d.gif)
 
-
 ## Screenshots:
+
 ![image](https://user-images.githubusercontent.com/61556757/154899087-8f70fb48-a48a-458e-aeab-c0f0fd260c29.png)
 ![image](https://user-images.githubusercontent.com/61556757/154899133-7b9f1219-05ed-4d48-aab3-1f99f0af29a1.png)
 ![image](https://user-images.githubusercontent.com/61556757/154899163-5b71d0ec-471e-48ad-a702-74f9ddaf3aaa.png)
