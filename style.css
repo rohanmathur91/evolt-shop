@@ -7,9 +7,10 @@
 }
 
 :root {
-	--red: #ef4444;
 	--black: #171717;
 	--white: #ffffff;
+	--red: #ef4444;
+	--light-red: #fee2e2;
 	--gray: #94969f;
 	--light-gray: #d8d8d8;
 	--dark-gray: #666666;
@@ -161,6 +162,10 @@ input:focus {
 	font-weight: bold;
 }
 
+.navbar-cta:hover {
+	background-color: var(--light-gray);
+}
+
 .search {
 	width: 40rem;
 	background-color: var(--background-color);
@@ -229,20 +234,25 @@ input:focus {
 }
 
 .category-item {
-	background-color: var(--light-gray);
+	width: 25rem;
+	height: 25rem;
+	margin: auto;
 }
 
 .text-overlay {
 	position: absolute;
-	top: 50%;
-	width: 100%;
-	padding: 0.5rem;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
 	z-index: 1;
-	font-weight: bold;
-	text-align: center;
-	color: var(--black);
+	background-color: var(--navigation-shadow);
+}
+
+.overlay-content {
+	font-size: 1.8rem;
+	color: var(--primary-color);
 	background-color: var(--light-gray);
-	transform: translateY(-50%);
 }
 
 /* footer */
@@ -261,7 +271,7 @@ input:focus {
 	}
 
 	.navbar-icon-title,
-	.navbar-left-options {
+	.navbar-left-menu {
 		display: none;
 	}
 
