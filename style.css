@@ -293,4 +293,8 @@ textarea:focus {
 		left: 0;
 		width: 100%;
 	}
+
+	.banner {
+		margin-top: 2.8rem;
+	}
 }
