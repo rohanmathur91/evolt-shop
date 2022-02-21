@@ -102,6 +102,10 @@ input:focus {
 	border-right: 1px solid var(--light-gray);
 }
 
+.border-l {
+	border-left: 1px solid var(--light-gray);
+}
+
 .border-bottom {
 	border-bottom: 1px solid var(--light-gray);
 }
@@ -283,7 +287,7 @@ input:focus {
 @media screen and (max-width: 48em) {
 	.search {
 		position: absolute;
-		top: 6.6rem;
+		top: 6.4rem;
 		left: 0;
 		width: 100%;
 	}
