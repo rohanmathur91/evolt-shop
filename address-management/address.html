@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- meta -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Rohan Mathur" />
+    <meta name="description" content="Evolt a ecommerce for your headphones." />
+
+    <!-- link -->
+    <link rel="icon" type="image/x-icon" href="../assests/favicon.svg" />
+    <link rel="stylesheet" href="https://polaroid7.netlify.app/polaroid.css" />
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" href="address.css" />
+    <title>Evolt | Address</title>
+</head>
+
+<body>
+    <nav class="navigation flex-row items-center content-space-between w-100 sticky top-0 left-0 z-3">
+        <div class="flex-row items-center">
+            <div class="menu hide mr-1 p-1">
+                <div class="hamburger hamburger-line1"></div>
+                <div class="hamburger hamburger-line2"></div>
+                <div class="hamburger hamburger-line3"></div>
+            </div>
+
+            <a href="../index.html">
+                <h3 class="brand-logo font-black">EVOLT</h3>
+            </a>
+            <div class="navbar-left-menu ml-4">
+                <a class="navbar-cta mr-1 rounded-sm p-1" href="../index.html">Home</a>
+                <a class="navbar-cta rounded-sm p-1" href="../products/product.html">Shop now</a>
+            </div>
+        </div>
+
+        <ul class="navbar-options flex-row flex-center">
+            <li>
+                <a class="flex-column items-center" href="../auth/login.html">
+                    <i class="fa fa-user icon-stroke badge-icon"></i>
+                    <span class="navbar-icon-title">Login</span>
+                </a>
+            </li>
+            <li class="ml-4">
+                <a class="flex-column items-center" href="../wishlist/wishlist.html">
+                    <span class="relative">
+                        <i class="fa fa-heart icon-stroke badge-icon"> </i>
+                        <span class="badge red-badge">0</span>
+                    </span>
+
+                    <span class="navbar-icon-title">Wishlist</span>
+                </a>
+            </li>
+            <li class="ml-4">
+                <a class="flex-column items-center" href="../cart/cart.html">
+                    <span class="relative">
+                        <i class="fa fa-shopping-bag icon-stroke badge-icon relative">
+                        </i>
+                        <span class="badge red-badge">0</span>
+                    </span>
+                    <span class="navbar-icon-title">Bag</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="address w-100 flex-row content-center">
+        <form class="py-2 px-4 w-100 border rounded-sm mt-4 mx-2 mb-2" action="./address.html">
+            <h3 class="text-center mt-2 mb-3">Add address</h3>
+            <div class="flex-column mb-3">
+                <label for="email">Full Name</label>
+                <input class="mt-1 py-1 px-2 text-base border rounded-sm" id="fname" type="text"
+                    placeholder="Enter your full name" />
+            </div>
+
+            <div class="flex-column mb-3">
+                <label for="password">Contact</label>
+                <input class="mt-1 py-1 px-2 text-base border rounded-sm" id="number" type="number"
+                    placeholder="Enter your contact" />
+            </div>
+
+            <div class="flex-column mb-3">
+                <label for="address">Address</label>
+                <textarea class="address-field h-10 mt-1 py-1 px-2 text-base border rounded-sm w-100" id="address"
+                    placeholder="Enter your Address"></textarea>
+            </div>
+
+            <button class="btn btn-solid p-1 w-100 font-semibold transition-2 mr-1 mb-2 rounded-sm">
+                Add
+            </button>
+
+            <div class="text-center mb-2">
+                <a href="../cart/cart.html"><i class="fa fa-chevron-left"></i> Go back</a>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
