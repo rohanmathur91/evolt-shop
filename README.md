@@ -26,6 +26,8 @@
   - Logout
 - Search
 - Address Management
+  - Address listing page
+  - New Address form
 - Single Product Page
 
 ## Tech Stack:
