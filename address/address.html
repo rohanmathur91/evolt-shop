@@ -69,6 +69,15 @@
         <form class="py-2 px-4 w-100 border rounded-sm mt-4 mx-2 mb-2" action="./address.html">
             <h3 class="text-center mt-2 mb-3">Add address</h3>
             <div class="flex-column mb-3">
+                <label for="country">Country/Region</label>
+                <select class="mt-1 py-1 px-2 text-base border rounded-sm" id="country" type="text"
+                    placeholder="Enter city and state details">
+                    <option value="india">India</option>
+                    <option value="japan">Japan</option>
+                </select>
+            </div>
+
+            <div class="flex-column mb-3">
                 <label for="email">Full Name</label>
                 <input class="mt-1 py-1 px-2 text-base border rounded-sm" id="fname" type="text"
                     placeholder="Enter your full name" />
@@ -111,7 +120,6 @@
                     <option value="home">Home (7 am – 9 pm delivery)</option>
                     <option value="office">Office/Commercial (10 AM - 6 PM delivery)</option>
                 </select>
-
             </div>
 
             <button class="btn btn-solid p-1 w-100 font-semibold transition-2 mr-1 mb-2 rounded-sm">
@@ -119,7 +127,7 @@
             </button>
 
             <div class="text-center mb-2">
-                <a href="../cart/cart.html"><i class="fa fa-chevron-left"></i> Go back</a>
+                <a href="./addressList.html"><i class="fa fa-chevron-left"></i> Go back</a>
             </div>
         </form>
     </div>

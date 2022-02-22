@@ -39,17 +39,15 @@ body {
 i,
 input,
 button,
-select,
-textarea {
+select {
 	font-size: 1.6rem;
 	font-family: inherit;
 }
 
 input:focus,
-select:focus,
-textarea:focus {
+select:focus {
 	outline: none;
-	border: 1px solid var(--gray);
+	border: 1px solid var(--dark-gray);
 }
 
 /* utility */
