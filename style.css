@@ -39,12 +39,14 @@ body {
 i,
 input,
 button,
+select,
 textarea {
 	font-size: 1.6rem;
 	font-family: inherit;
 }
 
 input:focus,
+select:focus,
 textarea:focus {
 	outline: none;
 	border: 1px solid var(--gray);
